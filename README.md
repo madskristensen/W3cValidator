@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/nc8k0n8q717lqysf?svg=true)](https://ci.appveyor.com/project/madskristensen/w3cvalidator)
 
-Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/vsgallery/dc3ff26c-381e-460c-aaac-03c7153371cc)
+Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.W3CValidator)
 or get the [CI build](http://vsixgallery.com/extension/5f8512da-c0df-4703-b72b-1d67315dd560/).
 
 ---------------------------------------
@@ -15,21 +15,22 @@ See the [change log](CHANGELOG.md) for changes and road map.
 
 - Run W3C validation on page load
 - [Web Essentials Chrome extension](https://chrome.google.com/webstore/detail/web-essentials/mghdcdlpcdiodelbplncnodiiadljhhk) support
+- Errors show up directly in the Visual Studio Error List
 
 ### Run on page load
 By default, the validator runs when any ASP.NET generated page is loaded in the browser. That can be controlled from the Browser Link context menu on the *Standard* toolbar.
 
 ![Context menu](art/context-menu.png)
 
-### Chrome extension
-This extension support the [Web Essentials Chrome extension](https://chrome.google.com/webstore/detail/web-essentials/mghdcdlpcdiodelbplncnodiiadljhhk) to make it easy to run the validator directly from the browser.
-
-![Error List](art/chrome.png)
-
 ### Error List
 Errors show up in the Error List inside Visual Studio after running the validator.
 
 ![Error List](art/error-list.png)
+
+### Chrome extension
+This extension support the [Web Essentials Chrome extension](https://chrome.google.com/webstore/detail/web-essentials/mghdcdlpcdiodelbplncnodiiadljhhk) to make it easy to run the validator directly from the browser.
+
+![Error List](art/chrome.png)
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
