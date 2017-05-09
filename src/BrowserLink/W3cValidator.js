@@ -7,12 +7,9 @@
     }
 
     function validate() {
-        callApi(handleResult);
-    }
-
-    function handleResult(jsonText) {
-        console.log(JSON.parse(jsonText));
-        browserLink.invoke("Report", jsonText, window.location.href, _project);
+        callApi(function () {
+            browserLink.invoke("Report", jsonText, window.location.href, _project);
+        });
     }
 
     function callApi(callback) {
