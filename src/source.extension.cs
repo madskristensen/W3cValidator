@@ -11,7 +11,7 @@ namespace W3cValidator
         public const string Name = "W3C Validator";
         public const string Description = @"Validates any ASP.NET web application using the W3C validator on the rendered DOM running in the browser";
         public const string Language = "en-US";
-        public const string Version = "0.1";
+        public const string Version = "1.0";
         public const string Author = "Mads Kristensen";
         public const string Tags = "w3c, validation, browser link";
     }

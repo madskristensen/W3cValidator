@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="5f8512da-c0df-4703-b72b-1d67315dd560" Version="0.1" Language="en-US" Publisher="Mads Kristensen" />
+        <Identity Id="5f8512da-c0df-4703-b72b-1d67315dd560" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>W3C Validator</DisplayName>
         <Description xml:space="preserve">Validates any ASP.NET web application using the W3C validator on the rendered DOM running in the browser</Description>
+        <MoreInfo>https://github.com/madskristensen/W3cValidator</MoreInfo>
+        <License>Resources\LICENSE</License>
+        <ReleaseNotes>https://github.com/madskristensen/W3cValidator/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Tags>w3c, validation, browser link</Tags>
