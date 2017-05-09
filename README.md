@@ -2,8 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/nc8k0n8q717lqysf?svg=true)](https://ci.appveyor.com/project/madskristensen/w3cvalidator)
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Marketplace](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
+Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/vsgallery/dc3ff26c-381e-460c-aaac-03c7153371cc)
 or get the [CI build](http://vsixgallery.com/extension/5f8512da-c0df-4703-b72b-1d67315dd560/).
 
 ---------------------------------------
@@ -38,7 +37,7 @@ if you want to contribute to this project.
 
 For cloning and building this project yourself, make sure
 to install the
-[Extensibility Tools 2015](https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6)
+[Extensibility Tools](https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6)
 extension for Visual Studio which enables some features
 used by this project.
 
