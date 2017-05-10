@@ -12,7 +12,9 @@ namespace W3cValidator
         {
             _package = package;
 
-            if (ServiceProvider.GetService(typeof(IMenuCommandService)) is OleMenuCommandService commandService)
+            var commandService = ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
+
+            if (commandService != null)
             {
                 var cmdId = new CommandID(PackageGuids.guidValidatorPackageCmdSet, PackageIds.EnableValidationId);
                 var cmd = new OleMenuCommand(MenuItemCallback, cmdId);
