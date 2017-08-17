@@ -7,7 +7,7 @@
     }
 
     function validate() {
-        callApi(function () {
+        callApi(function (jsonText) {
             browserLink.invoke("Report", jsonText, window.location.href, _project);
         });
     }
